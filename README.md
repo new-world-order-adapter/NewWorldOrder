@@ -1,0 +1,2 @@
+# NewWorldOrder.github.io
+adapter
