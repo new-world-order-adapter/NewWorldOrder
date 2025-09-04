@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fsociety</title>
+    <title>ВОРЛД СРОРДЕР XD KILLED</title>
     <style>
         body {
             background-color: black;
@@ -12,14 +12,18 @@
             overflow: hidden;
             height: 100vh;
             display: flex;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
             font-family: 'Courier New', monospace;
+            color: red;
         }
 
         .text-container {
             position: relative;
             width: 100%;
-            height: 100px;
+            height: 60px;
+            margin-bottom: 40px;
         }
 
         .moving-text {
@@ -28,13 +32,37 @@
             font-size: 48px;
             font-weight: bold;
             white-space: nowrap;
-            animation: moveText 10s linear infinite;
+            animation: moveText 8s linear infinite;
             text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+        }
+
+        .wallet-container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ff0000;
+            border-radius: 5px;
+            background-color: rgba(255, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+            max-width: 90%;
+            overflow-wrap: break-word;
+        }
+
+        .wallet-label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 5px #ff0000;
+        }
+
+        .wallet-address {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ff4444;
+            text-shadow: 0 0 5px #ff4444;
         }
 
         @keyframes moveText {
             0% {
-                left: -100px;
+                left: -200px;
             }
             100% {
                 left: 100%;
@@ -44,8 +72,12 @@
 </head>
 <body>
     <div class="text-container">
-        <div class="moving-text">ДЖЕЙК ВЫЕБАН. ОТКУП 20 ТОН НА UQAr5dwzr6gaceqQHhWsvpC-orXxLf8EVQqHEhDhJCPbeza5 XD</div>
+        <div class="moving-text">fsociety</div>
+    </div>
+    
+    <div class="wallet-container">
+        <div class="wallet-label">ДЖЕЙК ТВОЙ САЙТ ВЫЕБАН. ОТКУП 20 ТОН НА КРИПТОКОШЕЛЬ:</div>
+        <div class="wallet-address">UQAr5dwzr6gaceqQHhWsvpC-orXxLf8EVQqHEhDhJCPbeza5</div>
     </div>
 </body>
 </html>
-
